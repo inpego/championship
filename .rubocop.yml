@@ -1,0 +1,17 @@
+AllCops:
+  TargetRubyVersion: 2.7
+  DisplayCopNames: true
+  Exclude:
+    - bin/**/*
+    - db/**/*
+    - config/**/*
+    - tmp/**/*
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/BlockLength:
+  Max: 40
